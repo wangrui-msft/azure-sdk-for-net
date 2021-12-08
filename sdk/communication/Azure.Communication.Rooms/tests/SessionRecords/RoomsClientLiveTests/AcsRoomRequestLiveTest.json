@@ -1,0 +1,157 @@
+{
+  "Entries": [
+    {
+      "RequestUri": "https://juta-acs1.int.communication.azure.net/rooms?api-version=2021-04-07",
+      "RequestMethod": "POST",
+      "RequestHeaders": {
+        "Accept": [
+          "application/json",
+          "text/json"
+        ],
+        "Authorization": "Sanitized",
+        "Content-Length": "2",
+        "Content-Type": "application/json",
+        "traceparent": "00-af4cf682e649d145afc4a34dbda4346f-e9ab0dd3502b864e-00",
+        "User-Agent": [
+          "azsdk-net-Communication.Rooms/1.0.0-alpha.20210826.1",
+          "(.NET 5.0.9; Microsoft Windows 10.0.19043)"
+        ],
+        "x-ms-client-request-id": "0b29dffbcb1a7dd9998cda0dd464c64d",
+        "x-ms-content-sha256": "Sanitized",
+        "x-ms-date": "Fri, 27 Aug 2021 04:19:45 GMT",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": {},
+      "StatusCode": 201,
+      "ResponseHeaders": {
+        "api-supported-versions": "2021-04-07",
+        "Content-Type": "application/json; charset=utf-8",
+        "Date": "Fri, 27 Aug 2021 04:19:45 GMT",
+        "Location": "99917934",
+        "MS-CV": "GNGBtFcun0OCKBM4aMBC1A.0",
+        "Request-Context": "appId=",
+        "Transfer-Encoding": "chunked",
+        "X-Azure-Ref": "04WcoYQAAAABa63sKRLRxQo4WgT2Y2Y60RVdSMzBFREdFMDYxMQBjYzkyNzU4ZC0wNWY3LTRhZDYtYWE1ZS0wZmE5NzE4ZDg5ODU=",
+        "X-Cache": "CONFIG_NOCACHE"
+      },
+      "ResponseBody": {
+        "id": "99917934",
+        "createdDateTime": "2021-08-27T04:19:46.128593\u002B00:00",
+        "validFrom": "2021-08-27T04:19:46.0358133\u002B00:00",
+        "validUntil": "2022-02-23T04:19:46.0358133\u002B00:00"
+      }
+    },
+    {
+      "RequestUri": "https://juta-acs1.int.communication.azure.net/rooms/99917934?api-version=2021-04-07",
+      "RequestMethod": "PATCH",
+      "RequestHeaders": {
+        "Accept": [
+          "application/json",
+          "text/json"
+        ],
+        "Authorization": "Sanitized",
+        "Content-Length": "108",
+        "Content-Type": "application/merge-patch\u002Bjson",
+        "traceparent": "00-06f838daa525d74cb8a93dbd6bff2d64-00d87992b9040246-00",
+        "User-Agent": [
+          "azsdk-net-Communication.Rooms/1.0.0-alpha.20210826.1",
+          "(.NET 5.0.9; Microsoft Windows 10.0.19043)"
+        ],
+        "x-ms-client-request-id": "284c45af44365cd903d5b19a92aaab60",
+        "x-ms-content-sha256": "Sanitized",
+        "x-ms-date": "Fri, 27 Aug 2021 04:19:46 GMT",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": {
+        "validFrom": "2021-08-01T08:06:32.0000000\u002B01:00",
+        "validUntil": "2021-08-02T08:06:32.0000000\u002B01:00"
+      },
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "api-supported-versions": "2021-04-07",
+        "Content-Type": "application/json; charset=utf-8",
+        "Date": "Fri, 27 Aug 2021 04:19:46 GMT",
+        "MS-CV": "10MquthT10eYFO84noR7Rw.0",
+        "Request-Context": "appId=",
+        "Transfer-Encoding": "chunked",
+        "X-Azure-Ref": "04mcoYQAAAACV58K1aYZWTIWS88iVk6OHRVdSMzBFREdFMDYxMQBjYzkyNzU4ZC0wNWY3LTRhZDYtYWE1ZS0wZmE5NzE4ZDg5ODU=",
+        "X-Cache": "CONFIG_NOCACHE"
+      },
+      "ResponseBody": {
+        "id": "99917934",
+        "createdDateTime": "2021-08-27T04:19:46.128593\u002B00:00",
+        "validFrom": "2021-08-01T07:06:32\u002B00:00",
+        "validUntil": "2021-08-02T07:06:32\u002B00:00"
+      }
+    },
+    {
+      "RequestUri": "https://juta-acs1.int.communication.azure.net/rooms/99917934?api-version=2021-04-07",
+      "RequestMethod": "GET",
+      "RequestHeaders": {
+        "Accept": [
+          "application/json",
+          "text/json"
+        ],
+        "Authorization": "Sanitized",
+        "traceparent": "00-32634bd6a2bf4c428eed9ee4d9c7131c-c540712158d1fd47-00",
+        "User-Agent": [
+          "azsdk-net-Communication.Rooms/1.0.0-alpha.20210826.1",
+          "(.NET 5.0.9; Microsoft Windows 10.0.19043)"
+        ],
+        "x-ms-client-request-id": "e4bc50a85c1025665f4db0b587675d97",
+        "x-ms-content-sha256": "Sanitized",
+        "x-ms-date": "Fri, 27 Aug 2021 04:19:46 GMT",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "api-supported-versions": "2021-04-07",
+        "Content-Type": "application/json; charset=utf-8",
+        "Date": "Fri, 27 Aug 2021 04:19:46 GMT",
+        "MS-CV": "AcBe8T6t0k6M5Wrc/WlHgQ.0",
+        "Request-Context": "appId=",
+        "Transfer-Encoding": "chunked",
+        "X-Azure-Ref": "04mcoYQAAAACO3aKJr1/dQJdrGl2Lg8S2RVdSMzBFREdFMDYxMQBjYzkyNzU4ZC0wNWY3LTRhZDYtYWE1ZS0wZmE5NzE4ZDg5ODU=",
+        "X-Cache": "CONFIG_NOCACHE"
+      },
+      "ResponseBody": {
+        "id": "99917934",
+        "createdDateTime": "2021-08-27T04:19:46.128593\u002B00:00",
+        "validFrom": "2021-08-01T07:06:32\u002B00:00",
+        "validUntil": "2021-08-02T07:06:32\u002B00:00"
+      }
+    },
+    {
+      "RequestUri": "https://juta-acs1.int.communication.azure.net/rooms/99917934?api-version=2021-04-07",
+      "RequestMethod": "DELETE",
+      "RequestHeaders": {
+        "Authorization": "Sanitized",
+        "traceparent": "00-c3623abb10a6f543993460adf94fc75d-8e27eca7f112d74d-00",
+        "User-Agent": [
+          "azsdk-net-Communication.Rooms/1.0.0-alpha.20210826.1",
+          "(.NET 5.0.9; Microsoft Windows 10.0.19043)"
+        ],
+        "x-ms-client-request-id": "38ef6cf64286b62106cd0845193eeaef",
+        "x-ms-content-sha256": "Sanitized",
+        "x-ms-date": "Fri, 27 Aug 2021 04:19:46 GMT",
+        "x-ms-return-client-request-id": "true"
+      },
+      "RequestBody": null,
+      "StatusCode": 204,
+      "ResponseHeaders": {
+        "api-supported-versions": "2021-04-07",
+        "Date": "Fri, 27 Aug 2021 04:19:47 GMT",
+        "MS-CV": "f7uKpK6PAk2bJwK5LfAV/Q.0",
+        "Request-Context": "appId=",
+        "X-Azure-Ref": "042coYQAAAADytTyku\u002BIsRKSLPbCNbekDRVdSMzBFREdFMDYxMQBjYzkyNzU4ZC0wNWY3LTRhZDYtYWE1ZS0wZmE5NzE4ZDg5ODU=",
+        "X-Cache": "CONFIG_NOCACHE"
+      },
+      "ResponseBody": []
+    }
+  ],
+  "Variables": {
+    "COMMUNICATION_LIVETEST_STATIC_CONNECTION_STRING": "endpoint=https://juta-acs1.int.communication.azure.net/;accesskey=Kg==",
+    "RandomSeed": "757030358"
+  }
+}
